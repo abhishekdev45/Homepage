@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="wave.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo"><img src="img/freeskout.png" alt="logp"></div>
+    
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+    
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+    
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+    
+            <li><a href="/">Brands</a></li>
+            <li><a href="/">influencers</a></li>
+            <li><a href="/">pricing</a></li>
+            <li><a href="/">blogs</a></li>
+            <li><a href="/">contact</a></li>
+        </div>
+        </ul>
+    </nav>
+    
+    <div class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div> 
+    </div>
+    <section class="home">
+        <div class="home-text">
+            <h1 style="font-weight: 800" class="home-head">
+                Discover. Connect. Collaborate.
+            </h1> 
+            <p class="home-sub-text">An ecosystem for Social media influencers and Brands.</p>
+            <div class="buttons">
+                <a href="#" class="btn">I'M AN INFLUENCER</a>
+                <a href="#" class="btn">I'M A BRAND</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="img/phones.png" alt="">
+        </div>
+    </section>
+    <div class="wave-container">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="wavy">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+        </svg>
+    </div>
+
+  
+</body>
+</html>
